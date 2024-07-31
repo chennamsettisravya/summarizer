@@ -8,7 +8,7 @@ import concurrent.futures
 import re
 
 #OPEN AI API KEY DECLARATION
-api_key = ' '
+api_key = 'sk-proj-Pg571DNE9tqHSlgMJyyBT3BlbkFJ3IuqEqKZUJMcV4EbiQ3s'
 endpoint = 'https://api.openai.com/v1/chat/completions'
 
 #FUNCTION TO GENERATE SUMMARY
@@ -50,7 +50,7 @@ def get_metaphor_articles(query, num_results=10, include_domains=['www.sciencedi
 client = ElsClient('8587565025ca7f1e6e0a3f026b32f6eb')
 
 
-st.title("Research Summarizer Edwisely")
+st.title("Research Summarizer")
 
 
 query = st.text_input("Enter the Topic of the paper")
